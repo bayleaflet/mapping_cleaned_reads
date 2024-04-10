@@ -24,13 +24,13 @@ Answer: In the cleaned reads, the Nanopore files are significantly smalelr!
 Answer: The format of the fastq files are quite different, in which the Illuminana sequence has a pretty concrete format, and the Nanopore raw_data has very different format that has more variables. This is likely the reason the file is larger. In the end though, I would expect the Nanopore to be a smaller file because overall less reads are generated.
 
 ## Q7: What is the average read depth for the Illumina data across all samples for the genomic regions that were mapped to?
-Answer: I believe it is about 60, a little less.
+Answer: Recalculated. 37901 
 
 ## Q8: What is the average read depth for the Illumina data across all samples for all genomic regions?
-Answer: Not sure how to check this! I am only seeing the reads that are mapped.
+Answer: 343.1 
 
 ## Q9: What is the average read depth for the Nanopore data across all samples for the genomic regions that were mapped to?
-Answer: Smaller, closer to 54.
+Answer: .047
 
 ## Q10: What is the average read depth for the Nanopore data across all samples for all genomic regions?
-Answer: Once again, only seeing read that are mapped. Not sure the location of this information, as I cannot check the other file types unless it is a sam file.
+Answer: .018 
